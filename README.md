@@ -5,8 +5,10 @@ This repository creates a service to search cities using the jaro-winkler algori
 
 ## ENV variables required
 
-- **JARO_WINKLER_THRESHOLD:** this one define the default threshold for string comparision, every string with a value greater will be in the response
+- **JARO_WINKLER_THRESHOLD:** this one defines the default threshold for string comparision, every string with a value greater will be in the response
 - **SERVER_PORT:** If this variable is not set, port 4000 will be set as default
+
+
 
 ## Testing queries:
 
